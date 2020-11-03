@@ -1,0 +1,42 @@
+package com.example.myapplication
+
+Battery Battery  = (Battery) findViewById(R.id.markdown_view);
+Battery.setBatteryText("# Battery State"); //Displays Battery State text
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/my_image"
+android:contentDescription="@string/my_image_description"
+/>
+</LinearLayout //Displays Battery State Image
+
+Battery.setBatteryText("# Battery State"); //Displays Generation text
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/my_image"
+android:contentDescription="@string/my_image_description"
+/>
+</LinearLayout //Displays Generation Image
+
+Battery.setBatteryText("# Battery State"); //Displays Grid Exchange text
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/my_image"
+android:contentDescription="@string/my_image_description"
+/>
+</LinearLayout //Displays Grid Exchange Image
+
+Battery.setBatteryText("# Battery State"); //Displays Power Consumption text
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/my_image"
+android:contentDescription="@string/my_image_description"
+/>
+</LinearLayout //Displays Power Consumption Image
