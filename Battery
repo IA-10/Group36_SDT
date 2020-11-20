@@ -1,42 +1,102 @@
-package com.example.myapplication
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
 
-Battery Battery  = (Battery) findViewById(R.id.markdown_view);
-Battery.setBatteryText("# Battery State"); //Displays Battery State text
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Battery State"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="7dp" />
 
-<ImageView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/my_image"
-android:contentDescription="@string/my_image_description"
-/>
-</LinearLayout //Displays Battery State Image
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Generation"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="162dp" />
 
-Battery.setBatteryText("# Battery State"); //Displays Generation text
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Grid Exchange"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="327dp" />
 
-<ImageView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/my_image"
-android:contentDescription="@string/my_image_description"
-/>
-</LinearLayout //Displays Generation Image
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Site Consumption"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="556dp" />
 
-Battery.setBatteryText("# Battery State"); //Displays Grid Exchange text
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="155dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="207dp" />
 
-<ImageView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/my_image"
-android:contentDescription="@string/my_image_description"
-/>
-</LinearLayout //Displays Grid Exchange Image
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="155dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="273dp" />
 
-Battery.setBatteryText("# Battery State"); //Displays Power Consumption text
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="153dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="240dp" />
 
-<ImageView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/my_image"
-android:contentDescription="@string/my_image_description"
-/>
-</LinearLayout //Displays Power Consumption Image
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="137dp"
+        android:layout_height="108dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="182dp"
+        android:layout_height="33dp"
+        android:text="Battery Optimisation"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="188dp"
+        android:layout_height="151dp"
+        app:srcCompat="@mipmap/ic_launcher_gridexchange_foreground"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
